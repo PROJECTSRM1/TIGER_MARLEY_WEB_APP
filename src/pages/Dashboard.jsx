@@ -1,4 +1,4 @@
-// src/pages/Dashboard.jsx
+
 import React from 'react';
 import './Dashboard.css';
 
@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div className="dashboard-content">
       <div className="header">
         <h2>Welcome Back! 👋</h2>
-        {/* <div className="user-info">AdminTigerMarley | Super Admin</div> */}
+     
       </div>
 
       <div className="cards">

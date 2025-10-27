@@ -1,4 +1,4 @@
-/* Overall container */
+
 .dashboard-container {
   display: flex;
   height: 100vh;
@@ -7,7 +7,7 @@
   color: #333;
 }
 
-/* Main Content */
+
 .main-content {
   flex-grow: 1;
   padding: 40px;
@@ -15,7 +15,7 @@
   transition: all 0.3s ease;
 }
 
-/* Header Section */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -39,7 +39,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Stats Cards Section */
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +99,7 @@
   color: #222;
 }
 
-/* Panels Section */
+
 .panels {
   display: flex;
   flex-wrap: wrap;
@@ -154,7 +154,7 @@
   font-size: 13px;
 }
 
-/* Scrollbar Styling */
+
 .main-content::-webkit-scrollbar {
   width: 8px;
 }
@@ -168,7 +168,7 @@
   background: #a73d2a;
 }
 
-/* Responsive Design */
+
 @media (max-width: 992px) {
   .cards,
   .panels {

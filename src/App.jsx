@@ -6,8 +6,10 @@ import Orders from "./pages/Orders";
 import Customers from "./pages/Customers";
 import Inventory from "./pages/Inventory";
 import AnalyticsReports from "./pages/Analytics-Reports";
-import SupportTickets from "./pages/SupportTickets";
 import Settings from "./pages/Settings";
+import SupportTickets from "./pages/SupportTickets";
+import Logout from "./pages/Logout";
+
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="analytics-reports" element={<AnalyticsReports />} />
         <Route path="support-tickets" element={<SupportTickets />} />
         <Route path="settings" element={<Settings />} />
+        <Route path="logout" element={<Logout />} />
+
       </Route>
     </Routes>
   );

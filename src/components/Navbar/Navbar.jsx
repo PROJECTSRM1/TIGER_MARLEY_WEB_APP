@@ -5,14 +5,13 @@ import tigerLogo from "../../assets/tiger.png";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* Left Section - Logo and Brand Name */}
+
       <div className="navbar-left">
         {/* <img src={tigerLogo} alt="Tiger Logo" className="navbar-logo" /> */}
         {/* <img src="//www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200" alt="" srcset="//www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200 200w, //www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200 200w" width="200" height="80" sizes="220px" class="header__logo-image"></img> */}
         <h2 className="navbar-title">Tiger Marley</h2>
       </div>
 
-      {/* Center Section - Search Bar */}
       <div className="navbar-center">
         <input
           type="text"
@@ -21,7 +20,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Right Section - User Info */}
       <div className="navbar-right">
         <select className="location-select">
           <option>All Locations</option>

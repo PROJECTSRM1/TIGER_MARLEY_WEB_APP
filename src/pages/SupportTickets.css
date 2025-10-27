@@ -1,0 +1,146 @@
+
+
+.tickets-container {
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8fafc;
+  min-height: 100vh;
+  color: #333;
+}
+
+.tickets-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.tickets-header h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #222;
+}
+
+.tickets-header input {
+  padding: 10px 15px;
+  width: 260px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+.tickets-header input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+
+
+.tickets-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.tickets-table thead {
+  background-color: #af3828;
+  color: #fff;
+  text-align: left;
+}
+
+.tickets-table th,
+.tickets-table td {
+  padding: 14px 16px;
+  font-size: 15px;
+}
+
+.tickets-table th {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+
+.tickets-table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.tickets-table tbody tr:hover {
+  background-color: #f4f8ff;
+}
+
+
+
+.status-active {
+  background-color: #28a745;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.status-closed {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+
+
+.priority-badge {
+  padding: 6px 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.priority-high {
+  background-color: #e63946;
+}
+
+.priority-medium {
+  background-color: #f6b93b;
+}
+
+.priority-low {
+  background-color: #38b000;
+}
+
+
+
+.tickets-empty,
+.tickets-loading,
+.tickets-error {
+  text-align: center;
+  font-size: 16px;
+  color: #555;
+  padding: 30px 0;
+}
+
+.tickets-error {
+  color: #dc3545;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+

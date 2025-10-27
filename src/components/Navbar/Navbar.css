@@ -9,7 +9,7 @@
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Left Section */
+
 .navbar-left {
   display: flex;
   align-items: center;
@@ -27,7 +27,6 @@
   font-size: 22px;
 }
 
-/* Center Search Bar */
 .navbar-center {
   flex: 1;
   display: flex;
@@ -49,7 +48,6 @@
   border-color: #21867a;
 }
 
-/* Right Section */
 .navbar-right {
   display: flex;
   align-items: center;
