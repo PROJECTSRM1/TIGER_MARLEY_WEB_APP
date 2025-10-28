@@ -9,7 +9,6 @@ const Navbar = () => {
         <h2 className="navbar-title">Tiger Marley</h2>
       </div>
 
-      {/* Center Section - Search Bar */}
       <div className="navbar-center">
         <input
           type="text"
@@ -18,7 +17,6 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Right Section - User Info */}
       <div className="navbar-right">
         <select className="location-select">
           <option>All Locations</option>
