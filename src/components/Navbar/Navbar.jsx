@@ -1,14 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import tigerLogo from "../../assets/tiger.png";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
 
       <div className="navbar-left">
-        {/* <img src={tigerLogo} alt="Tiger Logo" className="navbar-logo" /> */}
-        {/* <img src="//www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200" alt="" srcset="//www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200 200w, //www.tigermarron.com/cdn/shop/files/logotiger.png?v=1749556526&amp;width=200 200w" width="200" height="80" sizes="220px" class="header__logo-image"></img> */}
         <h2 className="navbar-title">Tiger Marley</h2>
       </div>
 
